@@ -20,19 +20,13 @@ const Menu = () => {
         <li className="menu-container__li">
           {" "}
           <Link className="menu-container__link" to="/">
-            Home
+            Work
           </Link>
         </li>
         <li className="menu-container__li">
           {" "}
-          <Link className="menu-container__link" to="/blog">
-            Blog
-          </Link>
-        </li>
-        <li className="menu-container__li">
-          {" "}
-          <Link className="menu-container__link" to="/gallery">
-            Gallery
+          <Link className="menu-container__link" to="/about">
+            About
           </Link>
         </li>
         <li className="menu-container__li">
