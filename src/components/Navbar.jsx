@@ -18,11 +18,13 @@ const Navbar = () => {
   return (
     <div className={navbar ? "navbar active" : "navbar"}>
       <Link to="/" className="navbar__logo" id="logo">
-        Niek's Ant World
+        <span>Synaptic</span>
+        <span>Entropy</span>
+        <span>Creations</span>
       </Link>
       <NavMenu />
     </div>
   );
 };
 
-export default Navbar
+export default Navbar;

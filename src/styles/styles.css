@@ -8,7 +8,7 @@
 html {
   font-size: 62.5%;
   scroll-behavior: smooth;
-  background-color: #C4A484;
+  background-color: #000000;
   height: 100%;
 }
 
@@ -26,12 +26,11 @@ body {
 .gallerypage,
 .contactpage {
   padding-top: 5rem;
-  border: solid red 1px;
 }
 
 .navbar {
   width: 100%;
-  height: 5rem;
+  height: 15rem;
   padding: 0 1.7rem;
   display: -webkit-box;
   display: -ms-flexbox;
@@ -48,11 +47,30 @@ body {
 }
 
 .navbar__logo {
-  color: #336D3C;
+  color: #199519;
   padding: 1rem 0;
   text-decoration: none;
   font-family: "Share Tech Mono", monospace;
   font-size: 2.5rem;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+}
+
+.navbar__logo span {
+  margin-top: -0.8rem;
+}
+
+.navbar__logo span:nth-child(2) {
+  padding-left: 1rem;
+}
+
+.navbar__logo span:nth-child(3) {
+  padding-left: 2rem;
 }
 
 .navbar__burger {
@@ -83,13 +101,13 @@ body {
   border-radius: 10px;
   -webkit-transition: all 0.3s linear;
   transition: all 0.3s linear;
-  background-color: #0c3f0c;
+  background-color: #199519;
 }
 
 .navbar__burger .nav-open {
   height: 0.25rem;
   border-radius: 10px;
-  background-color: #0c3f0c;
+  background-color: #199519;
   -webkit-transition: all 0.3s linear;
   transition: all 0.3s linear;
 }
@@ -130,7 +148,7 @@ body {
 }
 
 .navbar .menu-container__link {
-  color: #0c3f0c;
+  color: #199519;
   font-size: 2rem;
   text-decoration: none;
 }
@@ -144,7 +162,7 @@ body {
     -webkit-box-align: center;
         -ms-flex-align: center;
             align-items: center;
-    background-color: #C4A484;
+    background-color: #000000;
     position: fixed;
     top: 0;
     right: 0;
