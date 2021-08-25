@@ -1,9 +1,16 @@
 import React from "react";
+import ArtworkCard from "../components/ArtworkCard";
 
 const Homepage = () => {
   return (
     <div className="homepage">
-      <h1>homepage</h1>
+      <div className="galleryContainer">
+        <ArtworkCard
+          artworkImg={"https://i.postimg.cc/RZ1zNHnZ/Shroom-King.png"}
+          title={"Shroom King Charlie"}
+          description={"blablablablabala"}
+        />
+      </div>
     </div>
   );
 };
