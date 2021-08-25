@@ -189,6 +189,14 @@ body {
           transform: translateX(0%);
 }
 
+.artworkCard {
+  border: solid blue 2px;
+}
+
+.artworkCard .artworkImg img {
+  width: 100%;
+}
+
 .homepage {
   display: -webkit-box;
   display: -ms-flexbox;
@@ -205,5 +213,11 @@ body {
 
 .homepage .galleryContainer {
   border: solid yellow 1px;
+  display: -ms-grid;
+  display: grid;
+  -ms-grid-columns: (minmax(20rem, 1fr))[auto-fit];
+      grid-template-columns: repeat(auto-fit, minmax(20rem, 1fr));
+  grid-column-gap: 3rem;
+  grid-row-gap: 3rem;
 }
 /*# sourceMappingURL=styles.css.map */

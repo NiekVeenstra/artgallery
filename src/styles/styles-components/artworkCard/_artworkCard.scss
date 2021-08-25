@@ -1,6 +1,9 @@
-.artworkCard{
-
-    .artworkImg{
-      
+.artworkCard {
+  border: solid blue 2px;
+//   width: 80%;
+  .artworkImg {
+    img {
+      width: 100%;
     }
   }
+}
