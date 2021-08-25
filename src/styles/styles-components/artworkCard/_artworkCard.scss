@@ -1,9 +1,15 @@
 .artworkCard {
-  border: solid blue 2px;
-//   width: 80%;
+  background-color: rgb(209, 209, 209);
+
   .artworkImg {
     img {
       width: 100%;
     }
+  }
+  .textbox {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
   }
 }
