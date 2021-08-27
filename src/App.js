@@ -2,6 +2,7 @@ import React from "react";
 import { BrowserRouter as Router, Route, Switch } from "react-router-dom";
 // components
 import Navbar from "./components/Navbar";
+import Footer from "./components/Footer";
 // pages
 import Homepage from "./pages/Homepage";
 import Aboutpage from "./pages/Aboutpage";
@@ -17,6 +18,7 @@ const App = () => {
           <Route exact path="/about" component={Aboutpage} />
           <Route exact path="/contact" component={Contactpage} />
         </Switch>
+        <Footer />
       </div>
     </Router>
   );

@@ -1,16 +1,29 @@
 .homepage {
+  width: 100%;
+  height: fit-content;
   display: flex;
   flex-direction: column;
   align-items: center;
+  // border: solid rgb(0, 255, 221) 1px;
 
-  .galleryContainer{
-    width: 90%; 
+  .galleryContainer {
+    // border: solid red 1px;
+    width: 90%;
     // width: 60%;
-    display: grid;
-    grid-template-columns: repeat(auto-fit, minmax(30rem, 1fr));
-    grid-column-gap: 3rem;
-    grid-row-gap: 3rem;
-    padding-top: 3rem;
+    padding-top: 1rem;
+
+    .title {
+      color: $overal-text-color;
+      font-size: 3rem;
+    }
+    
+    .galleryInnerContainer {
+      width: 100%;
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(30rem, 1fr));
+      grid-column-gap: 3rem;
+      grid-row-gap: 3rem;
+      padding: 1rem 0rem;
+    }
   }
 }
-

@@ -5,7 +5,7 @@ const ArtworkCard = ({artworkImg, title, description}) => {
     <div className="artworkCard">
       <div className="artworkImg"><img src={artworkImg} alt="" /></div>
       <div className="textbox">
-        <h2 className="title">{title}</h2>
+        <h2 className="artTitle">{title}</h2>
         <h3 className="description">{description}</h3>
       </div>
     </div>

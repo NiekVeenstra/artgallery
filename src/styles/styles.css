@@ -189,8 +189,15 @@ body {
           transform: translateX(0%);
 }
 
+.footer {
+  border: solid red 1px;
+  width: 100%;
+  height: 5rem;
+}
+
 .artworkCard {
   background-color: #d1d1d1;
+  border: solid #d1d1d1 2px;
 }
 
 .artworkCard .artworkImg img {
@@ -214,6 +221,10 @@ body {
 }
 
 .homepage {
+  width: 100%;
+  height: -webkit-fit-content;
+  height: -moz-fit-content;
+  height: fit-content;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -228,12 +239,22 @@ body {
 
 .homepage .galleryContainer {
   width: 90%;
+  padding-top: 1rem;
+}
+
+.homepage .galleryContainer .title {
+  color: #199519;
+  font-size: 3rem;
+}
+
+.homepage .galleryContainer .galleryInnerContainer {
+  width: 100%;
   display: -ms-grid;
   display: grid;
   -ms-grid-columns: (minmax(30rem, 1fr))[auto-fit];
       grid-template-columns: repeat(auto-fit, minmax(30rem, 1fr));
   grid-column-gap: 3rem;
   grid-row-gap: 3rem;
-  padding-top: 3rem;
+  padding: 1rem 0rem;
 }
 /*# sourceMappingURL=styles.css.map */
