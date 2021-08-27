@@ -22,17 +22,16 @@ body {
 }
 
 .homepage,
-.blogpage,
-.gallerypage,
+.aboutpage,
 .contactpage {
-  padding-top: 15rem;
+  padding-top: 15vh;
   width: 100%;
   height: 100vh;
 }
 
 .navbar {
   width: 100%;
-  height: 15rem;
+  height: 15vh;
   padding: 0 1.7rem;
   display: -webkit-box;
   display: -ms-flexbox;
@@ -190,9 +189,9 @@ body {
 }
 
 .footer {
-  border: solid red 1px;
+  border-top: solid #199519 2px;
   width: 100%;
-  height: 5rem;
+  height: 15vh;
 }
 
 .artworkCard {
@@ -239,12 +238,12 @@ body {
 
 .homepage .galleryContainer {
   width: 90%;
-  padding-top: 1rem;
+  padding-top: 1.5rem;
 }
 
 .homepage .galleryContainer .title {
   color: #199519;
-  font-size: 3rem;
+  font-size: 2.5rem;
 }
 
 .homepage .galleryContainer .galleryInnerContainer {
@@ -256,5 +255,51 @@ body {
   grid-column-gap: 3rem;
   grid-row-gap: 3rem;
   padding: 1rem 0rem;
+}
+
+.aboutpage {
+  width: 100%;
+  height: -webkit-fit-content;
+  height: -moz-fit-content;
+  height: fit-content;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.aboutpage__container {
+  color: #199519;
+  width: 90%;
+  height: 70vh;
+  padding-top: 1.5rem;
+}
+
+.aboutpage__container h2 {
+  font-size: 2.5rem;
+}
+
+.aboutpage__container .aboutContent {
+  padding-top: 1rem;
+  height: 55vh;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
+}
+
+.aboutpage__container .aboutContent p {
+  font-size: 2rem;
 }
 /*# sourceMappingURL=styles.css.map */

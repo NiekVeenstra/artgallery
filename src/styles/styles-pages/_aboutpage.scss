@@ -1,0 +1,27 @@
+.aboutpage {
+  width: 100%;
+  height: fit-content;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  // border: solid rgb(0, 255, 221) 1px;
+  &__container {
+    color: $overal-text-color;
+    width: 90%;
+    height: 70vh;
+    padding-top: 1.5rem;
+    h2{
+      font-size: 2.5rem;
+    }
+    .aboutContent{
+    padding-top: 1rem;
+    height: 55vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+      p{
+        font-size: 2rem;
+      }
+    }
+  }
+}
