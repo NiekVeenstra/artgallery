@@ -192,6 +192,57 @@ body {
   border-top: solid #199519 2px;
   width: 100%;
   height: 15vh;
+  color: #199519;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+.footer__container {
+  width: 90%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+.footer__container .footerContent {
+  width: 70%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+
+.footer__container .footerContent .footerRow h3 {
+  font-size: 1.8rem;
+}
+
+.footer__container .footerContent .footerRow ul li {
+  list-style: none;
+}
+
+.footer__container .footerContent .footerRow ul li .footerLink {
+  text-decoration: none;
+  color: #199519;
+  font-size: 1.5rem;
 }
 
 .artworkCard {
