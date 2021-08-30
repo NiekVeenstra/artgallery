@@ -19,6 +19,9 @@ const Aboutpage = () => {
             it to be the future. I will also never re-create my artwork so the ammounts of NFT's
             minted at the start will always be the maximum.
           </p>
+          <p>
+            rest
+          </p>
         </div>
       </div>
     </div>
