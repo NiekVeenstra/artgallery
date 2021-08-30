@@ -3,7 +3,6 @@ import { Link } from "react-router-dom";
 
 const Menu = () => {
   const [open, setOpen] = useState(false);
-  console.log(open);
 
   return (
     <>
