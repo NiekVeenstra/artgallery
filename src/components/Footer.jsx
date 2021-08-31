@@ -30,10 +30,17 @@ const Footer = () => {
             </ul>
           </div>
           <div className="footerRow">
-              <h3>links</h3>
+            <h3>links</h3>
+            <ul>
+              <li>
+                <a className="footerLink" href="https://opensea.io/SynapticEntropy">
+                  OpenSea
+                </a>
+              </li>
+            </ul>
           </div>
           <div className="footerRow">
-              <h3>social</h3>
+            <h3>social</h3>
           </div>
         </div>
       </div>
