@@ -1,0 +1,42 @@
+.testpage{
+    color: rgb(200, 197, 197);
+    background-color: #79136b;
+    display: flex;
+    justify-content: center;
+    padding-top: 1vh;
+}
+ul{
+    width: 70%;
+}
+li{
+    padding-bottom: 1rem;
+    list-style: none;
+    font-size: 1.5rem;
+}
+.flag-wrapper{
+    background-color: rgb(216, 36, 201);
+    color: rgb(255, 246, 246);
+    width: 8%;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    margin-bottom: 0.5rem;
+}
+
+.desc{
+    width: 100%;
+    border: solid 1px rgb(187, 6, 187);
+    border-radius: 25px;
+    padding: 1rem;
+    background-color: rgb(29, 29, 29);
+}
+a{
+    text-decoration: none;
+    color: rgb(199, 89, 181);  
+}
+.direction-l, .direction-r{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}

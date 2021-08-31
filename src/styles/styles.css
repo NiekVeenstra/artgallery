@@ -420,4 +420,70 @@ body {
   text-decoration: none;
   color: #199519;
 }
+
+.testpage {
+  color: #c8c5c5;
+  background-color: #79136b;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  padding-top: 1vh;
+}
+
+ul {
+  width: 70%;
+}
+
+li {
+  padding-bottom: 1rem;
+  list-style: none;
+  font-size: 1.5rem;
+}
+
+.flag-wrapper {
+  background-color: #d824c9;
+  color: #fff6f6;
+  width: 8%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
+  margin-bottom: 0.5rem;
+}
+
+.desc {
+  width: 100%;
+  border: solid 1px #bb06bb;
+  border-radius: 25px;
+  padding: 1rem;
+  background-color: #1d1d1d;
+}
+
+a {
+  text-decoration: none;
+  color: #c759b5;
+}
+
+.direction-l, .direction-r {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
 /*# sourceMappingURL=styles.css.map */
