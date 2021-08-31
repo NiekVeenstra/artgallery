@@ -218,7 +218,7 @@ body {
 }
 
 .footer__container .footerContent {
-  width: 70%;
+  width: 65%;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -232,17 +232,19 @@ body {
 }
 
 .footer__container .footerContent .footerRow h3 {
-  font-size: 1.8rem;
+  font-size: 1.6rem;
+  padding-bottom: 0.5rem;
 }
 
 .footer__container .footerContent .footerRow ul li {
   list-style: none;
+  padding-bottom: 0.2rem;
 }
 
 .footer__container .footerContent .footerRow ul li .footerLink {
   text-decoration: none;
   color: #199519;
-  font-size: 1.5rem;
+  font-size: 1.3rem;
 }
 
 .artworkCard {
