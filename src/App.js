@@ -7,7 +7,7 @@ import Footer from "./components/Footer";
 import Homepage from "./pages/Homepage";
 import Aboutpage from "./pages/Aboutpage";
 import Contactpage from "./pages/Contactpage";
-import Test from "./pages/Test";
+import Artpage from "./pages/Artpage";
 
 const App = () => {
   return (
@@ -18,7 +18,8 @@ const App = () => {
           <Route exact path="/" component={Homepage} />
           <Route exact path="/about" component={Aboutpage} />
           <Route exact path="/contact" component={Contactpage} />
-          <Route exact path="/test" component={Test} />
+
+          <Route exact path="/artwork" component={Artpage} />
         </Switch>
         <Footer />
       </div>
