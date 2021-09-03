@@ -15,6 +15,7 @@ const Artpage = () => {
               <button>Buy</button>
           </div>
       </div>
+      <Div className="test">testing123</Div>
     </div>
   );
 };
