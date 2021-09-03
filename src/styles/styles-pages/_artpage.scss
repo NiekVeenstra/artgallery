@@ -1,7 +1,23 @@
-.artpage{
-    height: 85vh;
-    &__contentContainer{
-        border: solid red 1px;
-        width: 100%;
+.artpage {
+  height: 85vh;
+  .contentContainer {
+    height: 70vh;
+    .artwork {
+      .artworkImgContainer {
+          img {
+            width: 100%;
+        }
+      }
     }
+    .artworkButtonContainer{
+        height: 10vh;
+        display: flex;
+        justify-content: space-around;
+        align-items: center;
+        button{
+            width: 30%;
+            height: 80%;
+        }
+    }
+  }
 }
