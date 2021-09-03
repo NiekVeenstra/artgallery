@@ -253,11 +253,11 @@ body {
   border: solid #199519 2px;
 }
 
-.artworkCard .artworkImg img {
+.artworkCard__artworkImg img {
   width: 100%;
 }
 
-.artworkCard .textbox {
+.artworkCard__textbox {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -426,8 +426,28 @@ body {
   height: 85vh;
 }
 
-.artpage__contentContainer {
-  border: solid red 1px;
+.artpage .contentContainer {
+  height: 70vh;
+}
+
+.artpage .contentContainer .artwork .artworkImgContainer img {
   width: 100%;
+}
+
+.artpage .contentContainer .artworkButtonContainer {
+  height: 10vh;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.artpage .contentContainer .artworkButtonContainer button {
+  width: 30%;
+  height: 80%;
 }
 /*# sourceMappingURL=styles.css.map */

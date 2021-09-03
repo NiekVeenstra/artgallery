@@ -3,12 +3,12 @@
   background-color: rgb(86, 243, 86);
   border: solid rgb(25, 149, 25) 2px;
 
-  .artworkImg {
+  &__artworkImg {
     img {
       width: 100%;
     }
   }
-  .textbox {
+  &__textbox {
     display: flex;
     flex-direction: column;
     justify-content: center;
